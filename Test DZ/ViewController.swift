@@ -41,10 +41,11 @@ class ViewController: UIViewController {
         }
         if isLigth == 6 {
             view.backgroundColor = .purple
-            isLigth = 0
         }
         isLigth += 1
-        
+        if isLigth == 7 {
+            isLigth = 0
+        }
         }
         
 
